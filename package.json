@@ -1,5 +1,5 @@
 {
-  "name": "angular.io-example",
+  "name": "ng-universal-static-test",
   "version": "0.0.0",
   "description": "Example project from an angular.io guide.",
   "license": "MIT",
@@ -10,10 +10,10 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "e2e": "ng e2e",
-    "dev:ssr": "ng run angular.io-example:serve-ssr",
-    "serve:ssr": "node dist/angular.io-example/server/main.js",
-    "build:ssr": "ng build && ng run angular.io-example:server",
-    "prerender": "ng run angular.io-example:prerender"
+    "dev:ssr": "ng run ng-universal-static-test:serve-ssr",
+    "serve:ssr": "node dist/ng-universal-static-teste/server/main.js",
+    "build:ssr": "ng build && ng run ng-universal-static-test:server",
+    "prerender": "ng run ng-universal-static-test:prerender"
   },
   "private": true,
   "dependencies": {
